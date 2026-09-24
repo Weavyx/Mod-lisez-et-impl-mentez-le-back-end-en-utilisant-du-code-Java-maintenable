@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:4200/api/auth/me
+method: GET
+headers:
+  Authorization: Bearer
+examples: .resources/401.resources/examples
+order: 173794398163746

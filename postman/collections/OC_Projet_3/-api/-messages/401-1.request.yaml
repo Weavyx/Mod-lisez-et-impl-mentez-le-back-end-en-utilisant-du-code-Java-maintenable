@@ -1,0 +1,12 @@
+$kind: http-request
+name: "401"
+url: http://localhost:4200/api/messages
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"user_id\": 1, \"message\":\"test\", \"rental_id\": 2\r
+
+    }\r\n"
+order: 1925673514959992

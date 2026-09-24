@@ -1,0 +1,8 @@
+$kind: http-request
+name: "200"
+url: http://localhost:4200/api/auth/me
+method: GET
+headers:
+  Authorization: Bearer jwt
+examples: .resources/200.resources/examples
+order: 1779458963058

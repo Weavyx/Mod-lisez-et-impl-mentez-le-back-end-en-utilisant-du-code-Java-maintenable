@@ -1,0 +1,14 @@
+$kind: http-request
+name: "400"
+url: http://localhost:4200/api/messages
+method: POST
+headers:
+  Authorization: Bearer jwt
+body:
+  type: json
+  content: "{\r
+
+    \  \"user_id\": 1, \"message\":\"test\"\r
+
+    }\r\n"
+order: 1884

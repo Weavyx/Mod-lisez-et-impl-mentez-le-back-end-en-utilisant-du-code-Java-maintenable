@@ -1,0 +1,9 @@
+$kind: http-request
+name: "401"
+url: http://localhost:4200/api/rentals
+method: POST
+headers:
+  - key: Authorization
+    value: Bearer jwt
+    disabled: true
+order: 3116

@@ -1,0 +1,7 @@
+$kind: http-request
+name: "401"
+url: http://localhost:4200/api/rentals/:id
+method: PUT
+pathVariables:
+  id: "1"
+order: 3886

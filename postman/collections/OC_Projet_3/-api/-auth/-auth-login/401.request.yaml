@@ -1,0 +1,9 @@
+$kind: http-request
+name: "401"
+url: http://localhost:4200/api/auth/login
+method: POST
+body:
+  type: json
+  content: '{ "email": "test@test.com", "password": "wrong" }'
+examples: .resources/401.resources/examples
+order: 4117675827927476

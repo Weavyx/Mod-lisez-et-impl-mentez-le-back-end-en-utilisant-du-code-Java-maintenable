@@ -1,0 +1,9 @@
+$kind: http-request
+name: "200"
+url: http://localhost:4200/api/rentals/:id
+method: GET
+headers:
+  Authorization: Bearer jwt
+pathVariables:
+  id: "1"
+order: 1000
